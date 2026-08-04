@@ -75,13 +75,6 @@ To upload
 
 # Observation
 
-| Potentiometer Position | Analog Value | PWM Value | LED Brightness |
-|------------------------|-------------:|----------:|----------------|
-| Minimum | 0 | 0 | OFF |
-| Quarter | ≈256 | ≈64 | Dim |
-| Half | ≈512 | ≈128 | Medium |
-| Three-Quarter | ≈768 | ≈192 | Bright |
-| Maximum | 1023 | 255 | Full Brightness |
 
 # Result
 
