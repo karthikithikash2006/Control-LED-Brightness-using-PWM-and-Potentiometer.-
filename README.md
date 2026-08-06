@@ -69,12 +69,24 @@ To upload
 
 # Program
 
----
-To upload
----
+```
+const int ledPin = 9;
+const int potPin = A0;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  int potValue = analogRead(potPin);
+  int brightness = map(potValue, 0, 1023, 0, 255);
+
+  analogWrite(ledPin, brightness);
+}
+```
 
 # Observation
-
+<img width="1280" height="578" alt="image" src="https://github.com/user-attachments/assets/565b657b-1285-4b09-ba5f-012f4167d77c" />
 
 # Result
 
